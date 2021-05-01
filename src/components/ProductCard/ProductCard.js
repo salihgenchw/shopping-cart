@@ -54,7 +54,7 @@ const ProductCard = ({ product, onIncrement, onDecrement, cartItem }) => {
             ) : (
               <Col>
                 <Button
-                  variant="primary"
+                  variant="warning"
                   onClick={() => onIncrement(cartItem)}
                   style={{ "margin-top": "auto" }}
                 >

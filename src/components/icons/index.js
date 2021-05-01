@@ -17,7 +17,7 @@ export const PlusCircleIcon = () => (
 );
 
 export const CartIcon = () => (
-  <i className="fa fa-shopping-cart fa-lg m-2" aria-hidden="true" />
+  <i className="fa fa-shopping-cart fa-lg m-2"  style={{color : 'orange'}} aria-hidden="true" />
 );
 
 export const TrashIcon = () => (
