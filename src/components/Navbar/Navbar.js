@@ -5,6 +5,7 @@ import { CartIcon } from "../icons";
 const NavBar = ({ totalItems }) => {
   return (
     <div>
+      
       <Navbar bg="" variant="dark" expand="md">
         <Container>
           <Navbar.Brand href="/">
@@ -24,7 +25,7 @@ const NavBar = ({ totalItems }) => {
             </Nav.Item>
           </Navbar>
         </Container>
-      </Navbar>
+      </Navbar><hr style={{ width: "100%", height:"20px" }}></hr>
     </div>
   );
 };

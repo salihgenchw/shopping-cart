@@ -3,6 +3,7 @@ import "./App.css";
 import Navbar from "./components/Navbar";
 import { products } from "./constants";
 import ProductsGrid from "./components/ProductsGrid";
+import Topbar from "./components/Topbar/Topbar";
 
 class App extends Component {
   state = {
@@ -50,6 +51,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        <Topbar/>
         <Navbar totalItems={this.state.itemCount} />
         <ProductsGrid
           products={products}
