@@ -2,7 +2,7 @@ import React from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import { CartIcon } from "../icons";
 
-const NavBar = ({ totalItems }) => {
+function NavBar  ({ totalItems })  {
   return (
     <div>
       

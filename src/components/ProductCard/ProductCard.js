@@ -3,7 +3,7 @@ import "./ProductCard.css";
 import { Card, Button, Row, Col, Badge } from "react-bootstrap";
 import { MinusCircleIcon, PlusCircleIcon, CartIcon } from "../icons";
 
-const ProductCard = ({ product, onIncrement, onDecrement, cartItem }) => {
+function ProductCard ({ product, onIncrement, onDecrement, cartItem }) {
   return (
     <Col style={{ margin: "30px 0px" }}>
       <Card className="">
@@ -54,7 +54,7 @@ const ProductCard = ({ product, onIncrement, onDecrement, cartItem }) => {
             ) : (
               <Col>
                 <Button
-                  variant="warning"
+                  variant="primary"
                   onClick={() => onIncrement(cartItem)}
                   style={{ "margin-top": "auto" }}
                 >
