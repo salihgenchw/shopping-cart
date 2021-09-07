@@ -1,5 +1,7 @@
 ## Shopping Cart
 
+<a href="https://shopping-cart-c450b0zui-salihgenchw.vercel.app/">Live Demo</a>
+
 Bu projede bir e-ticaret web sitesinin sunduğu en temel özelliklerden biri olan sepete ürün eklemeyi en basit haliyle uygulayacağız.
 
 <p align="center">
